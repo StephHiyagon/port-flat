@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/font/fonts.css">
   <title>StephHiyagon</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
       </ul>
     </nav>
     <nav class="scroll hide-on-small-only">
-      <img src="logo.jpg" alt="logo de Stephanie Hiyagon">
+      <img src="assets/img/logo.jpg" alt="logo de Stephanie Hiyagon">
       <button class="hamburger white-text black darken-1">&#9776;</button>
       <button class="cross purple darken-1">&#735;</button>
       <div class="menu">
@@ -39,7 +39,7 @@
        </div>
     </nav>
     <nav class="mobile hide-on-med-and-up">
-      <img src="logo.jpg" alt="logo de Stephanie Hiyagon">
+      <img src="assets/img/logo.jpg" alt="logo de Stephanie Hiyagon">
       <button class="hamburger white-text black darken-1">&#9776;</button>
       <button class="cross purple darken-1">&#735;</button>
       <div class="menu">
@@ -55,8 +55,8 @@
        </div>
     </nav>
     <div class="imagenPortada">
-      <img class="portada portada2" src="img/labo.jpg" alt="Stephanie en Laboratoria">
-      <img class="portada portada1" src="img/hsp.jpg" alt="Un caballo pura sangre inglés y Stephanie mirándolo">
+      <img class="portada portada2" src="assets/img/labo.jpg" alt="Stephanie en Laboratoria">
+      <img class="portada portada1" src="assets/img/hsp.jpg" alt="Un caballo pura sangre inglés y Stephanie mirándolo">
       <div class="info">
         <h1 class="flow-text center-align purple-text name">Stephanie Hiyagon</h1>
         <h4 class="flow-text center-align white-text prof">Front-End Developer Jr</h4>
@@ -69,13 +69,19 @@
   <section id="about" class="seccion">
     <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s10 offset-s1">
           <h2 class="center-align indigo-text">Yo soy...</h2>
         </div>
       </div>
       <div class="row">
-        <div class="video col s12">
-            <iframe width="100%" height="400" src="https://www.youtube.com/embed/rGdgmNZcZoQ?list=PLvq-jIkSeTUbFYbzpJFN1GLMBZnm9hX5G" frameborder="0" allowfullscreen></iframe>
+        <div id="sobremi"></div>
+        <div id="sobremiText" class="indigo darken-1 white-text col s10 offset-s1">
+          <p class="center-align">Soy Stephanie Hiyagon, natural de Lima, estudié mi primera carrera profesional en la Universidad Nacional Mayor de San Marcos,
+          fueron 6 años para graduarme de Médico Veterinario. Actualmente estudió mi segunda carrera en Laboratoria; han sido 6 meses de full programación y he podido
+          descubrir una nueva pasión en mi vida. Estoy feliz pues llegué a Laboratoria para darle un valor agregado a mi carrera y me ha cambiado el horizonte, lo ha ampliado con
+          conocimientos completamente nuevos (<a href="#conocimientos" class="blue-text">leer conocimientos</a>); detrás de éste proyecto hay un gran grupo humano, por ello Laboratoria es lo que es
+           hoy, un excelente lugar para las chicas que deseen aprender programación. Debo agradecer que cada paso que he dado en mi vida me ha llevado a conocer personas que me
+           han impactado positivamente. Para conocer más de mis aptitudes, conocimientos, experiencias y metas les dejo mi <a href="assets/cv/cv.StephanieHiyagon.pdf" class="blue-text"> link de mi cv.</a>Gracias</p>
         </div>
       </div>
     </div>
@@ -83,7 +89,7 @@
   <section id="conocimientos" class="seccion conocimiento">
     <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s10 offset-s1">
           <h2 class="blue-text center-align">Conocimientos y Habilidades</h2>
         </div>
       </div>
@@ -139,7 +145,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 col m12">
+        <div class="col s10 offset-s1 col m12">
           <ul class="collapsible" data-collapsible="accordion">
             <li>
               <div class="collapsible-header"><span class="new badge">6</span><i class="material-icons">person_pin</i>Badges en Laboratoria</div>
@@ -157,7 +163,7 @@
   <section id="portafolio">
     <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s10 offset-s1">
           <h2 class="center-align indigo-text">Mi Portafolio</h2>
         </div>
       </div>
@@ -166,12 +172,16 @@
   <section id="contacto">
     <div class="container">
       <div class="row">
-        <h2 class="center-align blue-text">Contáctame</h2>
-      </div>      
+        <div class="col s10 offset-s1">
+          <h2 class="center-align blue-text">Contáctame</h2>
+        </div>
+
+      </div>
     </div>
   </section>
-  <script src="vendor/jquery.js" charset="utf-8"></script>
+  <script src="assets/js/vendor/jquery.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-  <script src="js/main.js" charset="utf-8"></script>
+  <script src="assets/js/main.js" charset="utf-8"></script>
+  <script src="assets/js/media.js" charset="utf-8"></script>
 </body>
 </html>
