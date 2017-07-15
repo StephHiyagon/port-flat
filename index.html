@@ -9,17 +9,18 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/font/fonts.css">
+  <link rel="stylesheet" href="assets/font2/style.css">
   <title>StephHiyagon</title>
 </head>
 <body>
   <header id="home" class="seccion">
     <nav class="initial hide-on-small-only">
       <ul>
-        <li class="center-align"><a href="#home" class=" boton center-align"><span><i class="icon center-align material-icons pink darken-1 ">perm_identity</i></span>Inicio</a></li>
-        <li class="center-align"><a href="#about" class="boton center-align"><span><i class="icon center-align material-icons purple darken-1 ">videocam</i></span>Mi historia</a></li>
-        <li class="center-align"><a href="#conocimientos" class="boton center-align"><span><i class="icon center-align material-icons deep-purple lighten-1 ">view_list</i></span>Conocimientos</a></li>
-        <li class="center-align"><a href="#portafolio" class="boton center-align"><span><i class="icon center-align material-icons  indigo darken-1 ">web</i></span>Portafolio</a></li>
-        <li class="center-align"><a href="#contacto" class="boton center-align"><span><i class="icon center-align material-icons blue darken-2 ">email</i></span>Contáctame</a></li>
+        <li class="center-align"><a href="#home" class=" boton center-align"><span><i class="icon center-align material-icons pink darken-1" role-data="home">perm_identity</i></span>Inicio</a></li>
+        <li class="center-align"><a href="#about" class="boton center-align"><span><i class="icon center-align material-icons purple darken-1" role-data="about">videocam</i></span>Mi historia</a></li>
+        <li class="center-align"><a href="#conocimientos" class="boton center-align"><span><i class="icon center-align material-icons deep-purple lighten-1" role-data="conocimientos">view_list</i></span>Conocimientos</a></li>
+        <li class="center-align"><a href="#portafolio" class="boton center-align"><span><i class="icon center-align material-icons  indigo darken-" role-data="portafolio">web</i></span>Portafolio</a></li>
+        <li class="center-align"><a href="#contacto" class="boton center-align"><span><i class="icon center-align material-icons blue darken-" role-data="contacto">email</i></span>Contáctame</a></li>
       </ul>
     </nav>
     <nav class="scroll hide-on-small-only">
@@ -29,11 +30,11 @@
       <div class="menu">
         <div class="shadow">
                <ul class="menu1 purple darken-1">
-                 <a href="#home"><li class="pad">Inicio</li></a>
-                 <a href="#about"><li>Mi historia</li></a>
-                 <a href="#conocimientos"><li>Conocimientos</li></a>
-                 <a href="#portafolio"><li>Portafolio</li></a>
-                 <a href="#contacto"><li>Contáctame</li></a>
+                 <a href="#home" ><li class="pad" role-menu="home">Inicio</li></a>
+                 <a href="#about" ><li role-menu="about">Mi historia</li></a>
+                 <a href="#conocimientos" ><li role-menu="conocimientos">Conocimientos</li></a>
+                 <a href="#portafolio" ><li role-menu="portafolio">Portafolio</li></a>
+                 <a href="#contacto" ><li role-menu="contacto">Contáctame</li></a>
                </ul>
          </div>
        </div>
@@ -70,19 +71,12 @@
     <div class="container">
       <div class="row">
         <div class="col s10 offset-s1">
-          <h2 class="center-align indigo-text">Yo soy...</h2>
+          <h2 class="center-align white-text">Yo soy...</h2>
         </div>
       </div>
       <div class="row">
         <div id="sobremi"></div>
-        <div id="sobremiText" class="indigo darken-1 white-text col s10 offset-s1">
-          <p class="center-align">Soy Stephanie Hiyagon, natural de Lima, estudié mi primera carrera profesional en la Universidad Nacional Mayor de San Marcos,
-          fueron 6 años para graduarme de Médico Veterinario. Actualmente estudió mi segunda carrera en Laboratoria; han sido 6 meses de full programación y he podido
-          descubrir una nueva pasión en mi vida. Estoy feliz pues llegué a Laboratoria para darle un valor agregado a mi carrera y me ha cambiado el horizonte, lo ha ampliado con
-          conocimientos completamente nuevos (<a href="#conocimientos" class="blue-text">leer conocimientos</a>); detrás de éste proyecto hay un gran grupo humano, por ello Laboratoria es lo que es
-           hoy, un excelente lugar para las chicas que deseen aprender programación. Debo agradecer que cada paso que he dado en mi vida me ha llevado a conocer personas que me
-           han impactado positivamente. Para conocer más de mis aptitudes, conocimientos, experiencias y metas les dejo mi <a href="assets/cv/cv.StephanieHiyagon.pdf" class="blue-text"> link de mi cv.</a>Gracias</p>
-        </div>
+        <!-- <div id="sobremiText" class="indigo darken-1 white-text col s10 offset-s1"><p class="center-align">Soy Stephanie Hiyagon, natural de Lima, estudié mi primera carrera profesional en la Universidad Nacional Mayor de San Marcos, fueron 6 años para graduarme de Médico Veterinario. Actualmente estudió mi segunda carrera en Laboratoria; han sido 6 meses de full programación y he podido descubrir una nueva pasión en mi vida. Estoy feliz pues llegué a Laboratoria para darle un valor agregado a mi carrera y me ha cambiado el horizonte, lo ha ampliado con conocimientos completamente nuevos (<a href="#conocimientos" class="blue-text">leer conocimientos</a>); detrás de éste proyecto hay un gran grupo humano, por ello Laboratoria es lo que es hoy, un excelente lugar para las chicas que deseen aprender programación. Debo agradecer que cada paso que he dado en mi vida me ha llevado a conocer personas que me han impactado positivamente. Para conocer más de mis aptitudes, conocimientos, experiencias y metas les dejo mi <a href="assets/cv/cv.StephanieHiyagon.pdf" class="blue-text"> link de mi cv.</a>Gracias</p></div> -->
       </div>
     </div>
   </section>
@@ -164,7 +158,59 @@
     <div class="container">
       <div class="row">
         <div class="col s10 offset-s1">
-          <h2 class="center-align indigo-text">Mi Portafolio</h2>
+          <h2 class="center-align white-text">Mi Portafolio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m10 offset-m1">
+          <div class="center-align relat">
+            <img src="assets/img/screen.jpg" alt="En la pantalla de la laptop se mostrarán las imágenes de mis proyectos" width="100%">
+            <div class="black">
+              <div id="slide">
+                <ul>
+                  <li>
+                    <img src="assets/img/lyft.jpg" alt="">
+                    <div class="caption">
+                      <h6>Nueva Zelanda</h6>
+
+                    </div>
+                  </li>
+                  <li>
+                    <img src="assets/img/lyft.jpg" alt="">
+                    <div class="caption">
+                      <h6>Francia</h6>
+
+                    </div>
+                  </li>
+                  <li>
+                    <img src="assets/img/lyft.jpg" alt="">
+                    <div class="caption">
+                      <h6>España</h6>
+
+                    </div>
+                  </li>
+                  <li>
+                    <img src="assets/img/lyft.jpg" alt="">
+                    <div class="caption">
+                      <h6>Turquía</h6>
+
+                    </div>
+                  </li>
+                </ul>
+                <ol id="indicator">
+                  <li role-slide="1"><span class="icon-radio-unchecked"></span></li>
+                  <li role-slide="2"><span class="icon-radio-unchecked"></span></li>
+                  <li role-slide="3"><span class="icon-radio-unchecked"></span></li>
+                  <li role-slide="4"><span class="icon-radio-unchecked"></span></li>
+                </ol>
+                <div id="left"><span class="icon-circle-left"></span></div>
+                <div id="right"><span class="icon-circle-right"></span></div>
+              </div>
+              <div class="col m4 offset-m8">
+                <div class="descript"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
