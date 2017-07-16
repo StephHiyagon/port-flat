@@ -31,6 +31,9 @@
 .icon-facebook:before {
   font-family: 'icomoon';
   content: "\ea90";
+  background: blue;
+  padding: 5px;
+  font-size: 2rem;
 }
 .icon-whatsapp:before {
   font-family: 'icomoon';
@@ -39,12 +42,21 @@
 .icon-twitter:before {
   font-family: 'icomoon';
   content: "\ea96";
+  background: skyblue;
+  padding: 5px;
+  font-size: 2rem;
 }
 .icon-github:before {
   font-family: 'icomoon';
   content: "\eab0";
+  background: black;
+  padding: 5px;
+  font-size: 2rem;
 }
 .icon-linkedin:before {
   font-family: 'icomoon';
   content: "\eac9";
+  background: #2196F3;
+  padding: 5px;
+  font-size: 2rem;
 }
