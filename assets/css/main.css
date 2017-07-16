@@ -585,6 +585,20 @@ div.back p{
   }
 }
 
+input[type="text"].validar, input[type="email"].validar{
+border-bottom: 2px solid red;
+margin-bottom: 0;
+}
+
+input[type="email"]#email.validarC{
+border-bottom: 2px solid red;
+margin-bottom: 0;
+}
+
+.spanI{
+  display:none;
+}
+
 @media (max-width: 480px){
   div.info{
     left:57%;
